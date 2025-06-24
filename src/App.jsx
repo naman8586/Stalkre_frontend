@@ -10,6 +10,8 @@ import StepOneForm from './components/StepOneForm.jsx';
 import StepTwoForm from './components/StepTwoForm.jsx';
 import StepThreeForm from './components/StepThreeForm.jsx';
 import StepFourForm from './components/StepFourForm.jsx';
+import ProductInsight from './components/productInsight.jsx';
+import SellerRiskReport from './components/SellerRiskReport.jsx';
 function App() {
 
   return (
@@ -25,6 +27,8 @@ function App() {
         <Route path="/steptwoform" element={<StepTwoForm />} />
         <Route path="/stepthreeform" element={<StepThreeForm />} />
         <Route path="/stepfourform" element={<StepFourForm />} />
+        <Route path="/productinsight" element={<ProductInsight />} />
+        <Route path="/sellerriskreport" element={<SellerRiskReport />} />
 
       </Routes>
     </Router>

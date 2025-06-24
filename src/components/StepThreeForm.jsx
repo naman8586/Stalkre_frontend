@@ -23,6 +23,11 @@ const navigate = useNavigate();
   ];
 
   return (
+ <div
+      className="min-h-screen flex items-center justify-center px-4 py-12 bg-[length:140%_140%] bg-center"
+      style={{ backgroundImage: `url('/assets/bg.png')` }}
+    >
+
     <div className="max-w-4xl mx-auto mt-10 p-8 bg-white rounded-xl shadow-md">
       <h2 className="text-2xl font-bold mb-6 text-center">Product Onboarding Form</h2>
 
@@ -107,6 +112,7 @@ const navigate = useNavigate();
           Next →
         </button>
       </div>
+    </div>
     </div>
   );
 };
